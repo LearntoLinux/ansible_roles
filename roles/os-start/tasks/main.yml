@@ -1,9 +1,9 @@
 ---
 # tasks file for roles/os-start
-- name: Patch Server
-  package:
-    name: '*'
-    state: latest
+#- name: Patch Server
+#  package:
+#    name: '*'
+#    state: latest
 
 - name: Install common tools
   yum: 
